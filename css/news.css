@@ -1,0 +1,45 @@
+/* Styles for the recent news section rendered by js/news.js */
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--border);
+}
+
+.news-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 0 1.5rem 1.5rem;
+  position: relative;
+}
+
+.news-item::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+}
+
+.news-date {
+  flex: 0 0 90px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.news-text {
+  color: var(--text);
+}
+
+@media (max-width: 500px) {
+  .news-item {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+}

@@ -1,0 +1,48 @@
+/* Styles for the experience timeline rendered by js/experience.js */
+
+.experience-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.experience-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.experience-header h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.15rem;
+}
+
+.experience-org {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.experience-dates {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.experience-description {
+  color: var(--text);
+  margin: 0.75rem 0 0;
+}

@@ -1,0 +1,99 @@
+/* Global reset, variables, and shared layout rules used by every section */
+
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f2f8f4;
+  --text: #16211a;
+  --text-muted: #566b5c;
+  --accent: #16a34a;
+  --accent-soft: #dcfce7;
+  --border: #dbe8de;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(20, 40, 25, 0.06);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --max-width: 960px;
+}
+
+[data-theme="dark"] {
+  --bg: #121712;
+  --bg-alt: #182019;
+  --text: #e7f2ea;
+  --text-muted: #9db3a3;
+  --accent: #4ade80;
+  --accent-soft: #16321f;
+  --border: #23392a;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+* ,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+section,
+footer.contact {
+  padding: 4.5rem 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Scroll-reveal animation, applied by js/utils.js via IntersectionObserver */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
