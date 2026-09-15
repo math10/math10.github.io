@@ -8,6 +8,7 @@
 import { applyStoredTheme, attachThemeToggle } from "./theme.js";
 import { renderNav } from "./nav.js";
 import { renderHero } from "./math10.js";
+import { renderSocial } from "./social.js";
 import { renderNews } from "./news.js";
 import { renderSkills } from "./skills.js";
 import { renderPublications } from "./publications.js";
@@ -20,6 +21,7 @@ applyStoredTheme();
 
 renderNav();
 renderHero();
+renderSocial();
 renderNews();
 renderSkills();
 renderPublications();

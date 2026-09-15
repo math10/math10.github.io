@@ -10,12 +10,13 @@ you need without touching the rest.
 index.html                 # page shell — mount points for each section
 css/
   base.css                 # variables (colors/fonts), reset, shared layout
-  nav.css / math10.css / news.css / experience.css / publications.css / cv.css / contact.css
+  nav.css / math10.css / social.css / news.css / experience.css / publications.css / cv.css / contact.css
 js/
   main.js                  # orchestrator — renders sections in order
   theme.js                 # light/dark mode toggle
   nav.js                   # top navigation bar
   math10.js                # About/hero section
+  social.js                # Social/profile icon links (Scholar, LinkedIn, GitHub)
   news.js                  # Recent News list
   experience.js            # Experience timeline
   skills.js                # Skills section
@@ -37,12 +38,13 @@ any other file:
 | What to change | File |
 |---|---|
 | Name, title, university, bio, photo | `js/math10.js` |
+| Social/profile icon links (Scholar, LinkedIn, GitHub) | `js/social.js` |
 | News/updates list | `js/news.js` |
 | Work/research roles, dates, descriptions | `js/experience.js` |
 | Skill categories and tags | `js/skills.js` |
 | Papers, authors, venues, links | `js/publications.js` |
 | CV blurb / CV file path | `js/cv.js` |
-| Email, social links | `js/contact.js` |
+| Email | `js/contact.js` |
 | Nav links, site brand name | `js/nav.js` |
 | Colors, fonts, spacing | `css/base.css` (CSS variables at the top) |
 
