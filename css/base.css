@@ -65,14 +65,14 @@ h1, h2, h3 {
 
 section,
 footer.contact {
-  padding: 4.5rem 1.5rem;
+  padding: 2.75rem 1.5rem;
   max-width: var(--max-width);
   margin: 0 auto;
 }
 
 section h2 {
   font-size: 1.75rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 /* Scroll-reveal animation, applied by js/utils.js via IntersectionObserver */

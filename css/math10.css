@@ -3,10 +3,9 @@
 .hero {
   display: flex;
   align-items: center;
-  gap: 3rem;
-  min-height: calc(100vh - 64px);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  gap: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .hero-photo {
@@ -56,8 +55,6 @@
   .hero {
     flex-direction: column;
     text-align: center;
-    min-height: auto;
-    padding-top: 3rem;
   }
 
   .hero-bio {
