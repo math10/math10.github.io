@@ -5,7 +5,7 @@ const items = [
   { date: "2026-09-18", text: "Got Student Travel Grant from UGA Graduate School and School of Computing to attend PACT 2026" },
   { date: "2026-09-11", text: "Got Student Travel Grant from ACM to attend PACT 2026" },
   { date: "2026-08-14", text: "Completed a research internship at Qualcomm (San Diego), researching LLM inference throughput/efficiency trade-offs on mobile SoCs." },
-  { date: "2026-08-05, text: "Paper \"Mask-Aware Execution for Efficient JEPA Training\" accepted at PACT 2026." },
+  { date: "2026-08-05", text: "Paper \"Mask-Aware Execution for Efficient JEPA Training\" accepted at PACT 2026." },
   { date: "2026", text: "Paper \"FlashMem\" accepted at ASPLOS 2026." },
   { date: "2023-08", text: "Started Ph.D. in Computer Science at the University of Georgia." },
 ];
