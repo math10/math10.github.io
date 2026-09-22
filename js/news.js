@@ -2,6 +2,7 @@
 // most recent first.
 
 const items = [
+  { date: "2026-09-21", text: "Paper \"TierKV: Long-Context On-Device LLMs via Predictive Multi-Tier KV Caching\" accepted at EuroSys 2027." },
   { date: "2026-09-18", text: "Got Student Travel Grant from UGA Graduate School and School of Computing to attend PACT 2026" },
   { date: "2026-09-11", text: "Got Student Travel Grant from ACM to attend PACT 2026" },
   { date: "2026-08-14", text: "Completed a research internship at Qualcomm (San Diego), researching LLM inference throughput/efficiency trade-offs on mobile SoCs." },

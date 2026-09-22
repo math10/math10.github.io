@@ -7,6 +7,14 @@ const yourName = "M.M.R. Sanim";
 
 const publications = [
   {
+    title: "TierKV: Long-Context On-Device LLMs via Predictive Multi-Tier KV Caching",
+    authors: "Z. Shu, M.M.R. Sanim, J. Hu, K. Yuan, M. Qin, G. Agrawal, W. Niu",
+    venue: "EuroSys '27",
+    year: "2027",
+    tags: ["On-Device LLMs", "Systems"],
+    links: { pdf: "#" },
+  },
+  {
     title: "Mask-Aware Execution for Efficient JEPA Training",
     authors: "M.M.R. Sanim, Z. Shu, B. Afsharmanesh, A.A. Mirian, W. Niu, G. Agrawal",
     venue: "PACT '26, Chicago, IL, USA",
