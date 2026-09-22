@@ -12,7 +12,7 @@ const publications = [
     venue: "EuroSys '27",
     year: "2027",
     tags: ["On-Device LLMs", "Systems"],
-    links: { pdf: "#" },
+    links: { arxiv: "https://arxiv.org/abs/2609.21172" },
   },
   {
     title: "Mask-Aware Execution for Efficient JEPA Training",
@@ -21,7 +21,7 @@ const publications = [
     year: "2026",
     tags: ["ML Systems", "Training"],
     summary: "Exploits cross-mask redundancy via shared execution, fused mask-aware routing, and sparse computation — up to 1.7× faster end-to-end training.",
-    links: { pdf: "#" },
+    links: { arxiv: "https://arxiv.org/abs/2609.22674" },
   },
   {
     title: "FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations",
