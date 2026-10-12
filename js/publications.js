@@ -71,7 +71,7 @@ export function renderPublications() {
   const root = document.getElementById("publications-root");
   root.innerHTML = `
     <section id="publications" class="publications reveal">
-      <h2>Publications</h2>
+      <h2>Selected Publications</h2>
       <div class="pub-grid">
         ${publications.map(renderCard).join("")}
       </div>
